@@ -1,0 +1,65 @@
+# --- ZENITH CORE IGNORE ---
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build and Production outputs
+dist/
+out/
+build/
+.webpack/
+.vite/
+.next/
+.nuxt/
+
+# 🛠️ Development Caches
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache
+*.tsbuildinfo
+.fusebox/
+
+# 🔑 Sensitive Data & Environment
+# NEVER commit your API keys or local hardware paths
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.test
+
+# 📋 Logs & Reports
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+coverage/
+*.lcov
+.nyc_output
+
+# 💻 System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.pid
+*.seed
+*.pid.lock
+
+# ⚙️ VS Code & IDE Settings
+# It's better to keep your personal editor settings out of the repo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📦 Package Manager Artifacts
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm
+.yarn-integrity
+*.tgz

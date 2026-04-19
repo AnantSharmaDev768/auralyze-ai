@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com data:;
+        connect-src 'self' ws://localhost:* http://localhost:*;
+    ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenith AI - Neural Audio Engine</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background-color: #0B0E14; 
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #F8FAFC; 
+            height: 100vh;
+            width: 100vw;
+        }
+        #root { height: 100vh; width: 100vw; display: flex; background-color: #0B0E14; }
+        .title-bar-drag { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 40px;
+            -webkit-app-region: drag; 
+            z-index: 9999; 
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-bar-drag"></div>
+    <div id="root"></div>
+</body>
+</html>
