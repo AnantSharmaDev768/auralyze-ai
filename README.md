@@ -1,4 +1,4 @@
-# 🌌 Zenith Auralyze AI 
+# 🌌 Zenith Auralyze DSP
 > **DSP Control Surface for Windows.** A React/Electron-based interface for system-wide audio virtualization and frequency-domain manipulation.
 
 ---
