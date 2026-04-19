@@ -1,8 +1,8 @@
 {
-  "name": "auralyze-ai",
-  "productName": "Zenith Auralyze AI",
+  "name": "zenith-auralyze-dsp",
+  "productName": "Zenith Auralyze DSP",
   "version": "1.3.0",
-  "description": "Surgical Precision Neural Audio Engine",
+  "description": "Open-source DSP control surface for Windows audio virtualization via APO bridge.",
   "main": ".webpack/main",
   "private": true,
   "scripts": {
@@ -12,8 +12,15 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": [],
-  "author": "Kartik | VIT Vellore",
+  "keywords": [
+    "electron",
+    "react",
+    "dsp",
+    "audio-processing",
+    "equalizer-apo",
+    "windows-audio"
+  ],
+  "author": "Anant Kumar Sharma | VIT Vellore",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.0",
